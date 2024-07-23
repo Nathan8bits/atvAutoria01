@@ -14,26 +14,25 @@
 }
 
 .relato{
+    margin-top: 5px;
     width: 100%;
-    padding: 20px;
     display: grid;
     grid-column-gap: 20px;
     grid-template-columns: 1fr 1fr;
 }
 
 .relato > p {
-    margin: 0;
-    padding: 0;
     grid-column: 2;
 }
 
 .pVTitulo{
+    font-weight: normal;
     font-size: 36px;
-    background-color: blue;
     margin-top: 5vh;
 }
 
 .pVTSubtitulo {
+    color: #a78042;
     font-size: 24px;
     width: 50%;
     margin: 4vh;
@@ -43,17 +42,27 @@
     text-align: left;
 }
 
+.strong {
+    font-weight: bold;
+}
+.link {
+    color: #a78042;
+}
+
 img{
     width: 100%;
 }
 
-h2{
-    display: block;
+.relato > div > h2{
+    font-weight: normal;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    font-size: 36px;
     width: 100%;
     height: 0px;
-    background-color: aqua;
-    margin-bottom: 10%;
-    padding: 0;
+    margin: 20px 0px 40px 0px;
 }
 
 p {
