@@ -1,0 +1,30 @@
+section {
+    padding: 10%;
+}
+
+.servicosTitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh;
+}
+
+.servicos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.servicoItem{
+    display: flex;
+    align-items: center;
+}
+
+h2{
+    font-size: 36px;
+}
+
+img {
+    width: 50px;
+}

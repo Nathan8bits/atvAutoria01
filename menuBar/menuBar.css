@@ -1,0 +1,30 @@
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.barraMenu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo{
+    display: block;
+    padding: 10px;
+}
+
+li{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: brown;
+}

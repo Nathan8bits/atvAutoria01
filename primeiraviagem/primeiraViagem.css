@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.primeiraViagem{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 5% 10% 10% 10%;
+}
+
+.relato{
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.relato > p {
+    margin: 0;
+    padding: 0;
+    grid-column: 2;
+}
+
+.pVTitulo{
+    font-size: 36px;
+    background-color: blue;
+    margin-top: 5vh;
+}
+
+.pVTSubtitulo {
+    font-size: 24px;
+    width: 50%;
+    margin: 4vh;
+}
+
+.pVDescricao {
+    text-align: left;
+}
+
+img{
+    width: 100%;
+}
+
+h2{
+    display: block;
+    width: 100%;
+    height: 0px;
+    background-color: aqua;
+    margin-bottom: 10%;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 20px;
+}
