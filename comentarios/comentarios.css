@@ -1,0 +1,76 @@
+*, body {
+    margin: 0;
+    padding: 0;
+}
+
+.comentarios {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 10% 10% 10%;
+    background: url('../imagens-da-pagina/stanislav-lvovsky-DwaZFbJbmPA-unsplash.jpg') no-repeat center center/cover;
+    background-color: rgba(145, 143, 143, 0.2);
+}
+
+
+.comentariosTitulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+    font-size: 36px;
+}
+
+.comentariosTitulo h2 {
+    color: aliceblue;
+}
+ 
+.comentariosTitulo img {
+    width: 50px;
+    margin-right: 10px;
+ }
+
+.comentariosItens {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 10%;
+}
+
+.comentarioItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(212, 212, 212, 0.8);
+    text-align: left;
+    min-width: 200px;
+}
+
+.comentarioItem img {
+    z-index: 2;
+    border-radius: 50%;
+    border: solid 6px;
+    border-color: rgb(212, 212, 212, 0.8);
+    margin-top: -100px;
+    margin-bottom: 0px;
+}
+
+.comentarioItem h3 {
+    font-size: 28px;
+}
+
+.comentarioItem p {
+    font-size: 20px;
+}
+
+.comentarioItem h4 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #a78042;
+}

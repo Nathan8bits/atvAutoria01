@@ -7,6 +7,10 @@ section {
     padding: 5% 10% 10% 10%;
 }
 
+h2{
+    font-size: 36px;
+}
+
 .sectionServicos {
     color: white;
     background-color: #2b516f;
@@ -39,8 +43,4 @@ section {
 .servicoItem h2 {
     font-size: 24px;
     margin-bottom: 10px;
-}
-
-h2{
-    font-size: 36px;
 }
