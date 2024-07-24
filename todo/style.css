@@ -1,0 +1,282 @@
+*, body{
+    padding: 0;
+    margin: 0;    
+}
+
+
+
+h1 {
+    font-size: 50px;
+}
+
+h2{
+    font-size: 36px;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+ul, li {  
+    list-style: none;
+}
+
+.header {
+    background-color: rgb(212, 212, 212, 0.8);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.barraMenu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo{
+    display: block;
+    padding: 10px;
+}
+
+.barraMenu li{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: brown;
+}
+
+
+.capa{
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background:  url('../imagens-da-pagina/veronika-klimchuk-X_Kz8viER3s-unsplash.jpg') no-repeat center center/cover;
+    font-size: 4vh;
+}
+
+.capa p {
+    color: aliceblue;
+    width: 30%;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.capaTitulo {
+    text-align: center;
+    padding: 1px;
+}
+
+.capaTituloSubtitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.capaTituloSubtitulo > h1 {
+    font-size: 13vh;
+}
+
+.capaTituloSubtitulo > h2 {
+    font-size: 6vh;
+}
+
+.btnCapa {
+    padding: 15px;
+    width: 160px;
+    margin: 20px;
+    color: aliceblue;
+    background-color: #bb9352;
+    border: none;
+}
+
+
+
+.primeiraViagem{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.relato{
+    margin-top: 5px;
+    width: 100%;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 10% 10% 10%;
+}
+
+.relato > p {
+    grid-column: 2;
+}
+
+.pVTitulo{
+    font-weight: normal;
+    font-size: 36px;
+    margin-top: 15vh;
+}
+
+.pVTSubtitulo {
+    color: #a78042;
+    font-size: 24px;
+    width: 50%;
+    margin: 4vh;
+}
+
+.pVDescricao {
+    text-align: left;
+}
+
+.strong {
+    font-weight: bold;
+}
+.link {
+    color: #a78042;
+}
+
+img{
+    width: 100%;
+}
+
+.relato > div > h2{
+    font-weight: normal;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    font-size: 36px;
+    width: 100%;
+    height: 0px;
+    margin: 20px 0px 40px 0px;
+}
+
+.pVDescricao p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+
+.sectionServicos {
+    color: white;
+    background-color: #2b516f;
+
+}
+
+.sectionServicos  img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.servicosTitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+    padding-top: 10vh;
+}
+
+.servicos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 35px;
+    grid-row-gap: 30px;
+    padding: 0 10% 10% 10%;
+}
+
+.servicoItem{
+    display: flex;
+    align-items:flex-start;
+}
+
+.servicoItem h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+.comentarios {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 10% 10% 10%;
+    background: url('../imagens-da-pagina/stanislav-lvovsky-DwaZFbJbmPA-unsplash.jpg') no-repeat center center/cover;
+    background-color: rgba(145, 143, 143, 0.2);
+}
+
+
+.comentariosTitulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+    font-size: 36px;
+}
+
+.comentariosTitulo h2 {
+    color: aliceblue;
+}
+ 
+.comentariosTitulo img {
+    width: 50px;
+    margin-right: 10px;
+ }
+
+.comentariosItens {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 10%;
+}
+
+.comentarioItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(212, 212, 212, 0.8);
+    text-align: left;
+    min-width: 200px;
+}
+
+.comentarioItem img {
+    z-index: 2;
+    border-radius: 50%;
+    border: solid 6px;
+    border-color: rgb(212, 212, 212, 0.8);
+    margin-top: -100px;
+    margin-bottom: 0px;
+}
+
+.comentarioItem h3 {
+    font-size: 28px;
+}
+
+.comentarioItem p {
+    font-size: 20px;
+}
+
+.comentarioItem h4 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #a78042;
+}

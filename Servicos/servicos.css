@@ -1,10 +1,7 @@
 
-*{
+*, body{
     margin: 0;
     padding: 0;
-}
-section {
-    padding: 5% 10% 10% 10%;
 }
 
 h2{
@@ -14,6 +11,8 @@ h2{
 .sectionServicos {
     color: white;
     background-color: #2b516f;
+    padding: 5% 10% 10% 10%;
+
 }
 
 .sectionServicos  img {
