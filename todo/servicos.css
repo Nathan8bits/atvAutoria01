@@ -1,0 +1,45 @@
+
+*, body{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-size: 36px;
+}
+
+.sectionServicos {
+    color: white;
+    background-color: #2b516f;
+    padding: 5% 10% 10% 10%;
+
+}
+
+.sectionServicos  img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.servicosTitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+.servicos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 35px;
+    grid-row-gap: 30px;
+}
+
+.servicoItem{
+    display: flex;
+    align-items:flex-start;
+}
+
+.servicoItem h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
